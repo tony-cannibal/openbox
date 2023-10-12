@@ -16,5 +16,21 @@
 #
 #xfce-mcs-manager &
 
-/home/luis/.config/openbox/autorun.sh
+# /home/luis/.config/openbox/autorun.sh
+#
 
+setxkbmap -option caps:swapescape
+
+xset s off -dpms
+
+xset r rate 350 60
+
+feh --bg-fill ~/Pictures/Wallpapers/Gruvbox/stairs.jpg &
+
+/home/luis/.config/openbox/polybar/launch.sh &
+
+lxpolkit &
+
+mpd &
+
+wmname LG3D
